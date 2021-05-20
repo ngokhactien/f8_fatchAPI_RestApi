@@ -1,0 +1,23 @@
+{
+  "name": "f8i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webQuanlyDataBase.html",
+    "server": "json-server --watch db.json --port 5555",
+    "dev": "nodemon --inspect fatch_axios.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "json-server": "^0.16.3",
+    "ngrok": "^4.0.1",
+    "nodemon": "^2.0.7"
+  }
+}

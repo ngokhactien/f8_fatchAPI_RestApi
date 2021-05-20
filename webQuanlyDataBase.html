@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            padding: 37px 22px 0 36px;
+            margin: 12px;
+
+        }
+        input{
+            margin: 10px;
+        }
+        button {
+            margin: 5px 0 0 36px ;
+        }
+        #create{
+            background-color: darkseagreen;
+        }
+        #delete{
+            background-color: red;
+        }
+        .updata{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Danh sách khóa học </h1>
+        <ul id="list-courses"></ul>
+    </div>
+    
+    <div>
+        <div>
+            <label for="name1"> Name </label>
+            <input type="text" id="name1" name="name">
+        </div>
+        <div>
+            <label for="description1"> Description </label>
+            <input type="text" id="description1" name="description">
+        </div>
+        <div>
+            <button id="create">create</button>
+        </div>
+    </div>
+
+    <script src="./webQuanLyDataBase.js"></script>
+</body>
+</html>

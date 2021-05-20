@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "name": "HTML",
+      "description": "  là viết tắt của từ Hyper Text Markup Language, có nghĩa là ngôn ngữ đánh dấu siêu văn bản. HTML được sử dụng để định dạng và hiển thị văn bản trên trình duyệt tới người sử dụng. Nó là xương sống của một trang web.",
+      "id": 4
+    },
+    {
+      "name": "Nodejs",
+      "description": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+      "id": 5
+    },
+    {
+      "name": "React",
+      "description": "ReactJS offers graceful solutions to some of front-end programming’s most persistent issues, allowing you to build dynamic and interactive web apps with ease. It’s fast, scalable, flexible, powerful, and has a robust developer community that’s rapidly growing. There’s never been a better time to learn React.",
+      "id": 6
+    }
+  ]
+}
