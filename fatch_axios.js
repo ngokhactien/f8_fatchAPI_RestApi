@@ -1,3 +1,4 @@
+// https://www.mockapi.io/ mock Api
 
 // fetch Api
 var post = 'http://localhost:5555/status';
